@@ -27,12 +27,6 @@
 ADC_HandleTypeDef hadc1;
 DMA_HandleTypeDef hdma_adc1;
 
-void DMA1_Channel1_IRQHandler(void)
-{
-  while (1) {
-  }
-}
-
 /* ADC1 init function */
 void MX_ADC1_Init(void)
 {
